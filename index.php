@@ -6,8 +6,8 @@ use Dompdf\Dompdf;
 
 // Variáveis simuladas de dados (em produção, usar banco de dados)
 $dados = [
-    ['pv' => '3023', 'imagem' => 'imagemTeste.png', 'nome_peca' => 'FRONT UPPER FASCIA', 'data_t0' => '20/12/2015', 'cliente' => 'STELLANTIS', 'transformador' => 'PLASCAR'],
-    ['pv' => '4127', 'imagem' => 'imagemTeste2.png', 'nome_peca' => 'FRONT LOWER FASCIA', 'data_t0' => '01/02/2016', 'cliente' => 'Matheus', 'transformador' => 'PLASCAR'],
+    ['pv' => '3023', 'imagem' => './images/imagemTeste.png', 'nome_peca' => 'FRONT UPPER FASCIA', 'data_t0' => '20/12/2015', 'cliente' => 'STELLANTIS', 'transformador' => 'PLASCAR'],
+    ['pv' => '4127', 'imagem' => './images/imagemTeste2.png', 'nome_peca' => 'FRONT LOWER FASCIA', 'data_t0' => '01/02/2016', 'cliente' => 'Matheus', 'transformador' => 'PLASCAR'],
     // Adicione mais dados aqui
 ];
 
